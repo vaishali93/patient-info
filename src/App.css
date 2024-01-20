@@ -1,0 +1,90 @@
+.App {
+  margin: 5%;
+  border: 1px solid black;
+  background-color: rgba(247,248,252,255);
+}
+
+header {
+  padding: 2%;
+  background-color: white;
+  font-weight: 700;
+}
+
+.patient-table {
+  padding: 5%;
+}
+
+table {
+  border: 1px solid rgb(218 225 222);
+  border-collapse: collapse; 
+  background-color: white;
+  width: 100%;
+}
+
+tr {
+  border-top: 1px solid rgb(218 225 222);
+}
+
+th, td {
+  height: 50px;
+  text-align: center;
+}
+
+th {
+  padding-top: 20px;
+}
+
+.horizontal-slider {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  border: 1px solid grey;
+}
+
+.example-thumb {
+  font-size: 0.9em;
+  text-align: center;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: 5px solid gray;
+  box-sizing: border-box;
+}
+
+.example-thumb.active {
+  background-color: grey;
+}
+
+.example-track {
+  position: relative;
+  background: #ddd;
+}
+
+.example-track.example-track-1 {
+  background: #f00;
+}
+
+.example-track.example-track-2 {
+  background: #0f0;
+}
+
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 10px;
+}
+
+.horizontal-slider .example-thumb {
+  top: 1px;
+  width: 50px;
+  height: 48px;
+  line-height: 38px;
+}
+
+.filter {
+  padding: 2%;
+}
+
+.filter span {
+  display: inline-block;
+  padding-bottom: 2%;
+}
